@@ -1,10 +1,10 @@
-# 🔧 Servante Intelligente
+#  Servante Intelligente
 
 **An Intelligent Tool Management System for EMINES University**
 
 An innovative tool management and lending system that combines RFID badge authentication, automated motorized drawer dispensing, and real-time inventory tracking.
 
-## 🌟 Key Features
+##  Key Features
 
 - **RFID Badge Authentication**: Secure access control using RFID technology
 - **Automated Tool Dispensing**: Motorized drawers for efficient tool retrieval
@@ -14,7 +14,7 @@ An innovative tool management and lending system that combines RFID badge authen
 - **Borrow/Return System**: Complete tool lending workflow with user tracking
 - **Hardware Integration**: Arduino-based RFID and motor control
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Backend:**
 - Node.js + Express + TypeScript
@@ -34,7 +34,7 @@ An innovative tool management and lending system that combines RFID badge authen
 - RC522 RFID Module
 - 4x Stepper Motors for drawer control
 
-## 📦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v16+)
@@ -67,7 +67,7 @@ cp .env.example .env
 docker-compose up
 ```
 
-## 📚 Documentation
+##  Documentation
 
 - [Project Documentation](./PROJECT_DOCUMENTATION.md) - Complete system documentation
 - [RFID Integration](./RFID_INTEGRATION_COMPLETE.md) - RFID setup and configuration
@@ -75,10 +75,10 @@ docker-compose up
 - [Admin Guide](./servante-backend/documents/guide_admin/)
 - [User Guide](./servante-backend/documents/guide_utilisateur/)
 
-## 📄 License
+##  License
 
 MIT License
 
-## 🏫 Institution
+##  Institution
 
 EMINES - Université Mohammed VI Polytechnique
