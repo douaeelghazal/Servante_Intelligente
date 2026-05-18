@@ -1,34 +1,84 @@
-# SawtCoop: AI-Powered Marketplace
+# 🔧 Servante Intelligente
 
-**Connecting Moroccan sellers with global buyers**
+**An Intelligent Tool Management System for EMINES University**
 
-## Overview
+An innovative tool management and lending system that combines RFID badge authentication, automated motorized drawer dispensing, and real-time inventory tracking.
 
-SawtCoop is an innovative AI-powered marketplace platform that empowers Moroccan sellers to reach global buyers effortlessly. By combining cutting-edge AI technology with support for Darija (Moroccan Arabic), we've created a seamless experience for listing, communicating, and trading.
+## 🌟 Key Features
 
-## Key Features
+- **RFID Badge Authentication**: Secure access control using RFID technology
+- **Automated Tool Dispensing**: Motorized drawers for efficient tool retrieval
+- **Real-Time Inventory Tracking**: PostgreSQL database with comprehensive tool management
+- **Multi-Language Support**: French and English interfaces
+- **Admin Analytics Dashboard**: Detailed statistics and system monitoring
+- **Borrow/Return System**: Complete tool lending workflow with user tracking
+- **Hardware Integration**: Arduino-based RFID and motor control
 
-- **Voice-to-Listing**: Capture listings by speaking in Darija - AI transforms your speech into professional product listings
-- **Multilingual Support**: Native Darija support with AI-powered translation to multiple languages
-- **Mobile-First Design**: Optimized for mobile devices for on-the-go selling and browsing
-- **AI-Enhanced Listings**: Intelligent product descriptions, pricing suggestions, and market insights
-- **Global Marketplace**: Connect sellers from Morocco with international buyers
+## 🛠️ Tech Stack
 
-## Tech Stack
+**Backend:**
+- Node.js + Express + TypeScript
+- PostgreSQL + Prisma ORM
+- SerialPort (Arduino communication)
+- JWT Authentication
 
-- **Frontend**: Mobile-first progressive web app
-- **Backend**: AI-powered API with multilingual support
-- **AI/ML**: Speech recognition, NLP for Darija, listing generation
-- **Database**: Cloud-based for scalability
+**Frontend:**
+- React + TypeScript
+- Vite (build tool)
+- Tailwind CSS
+- Recharts (analytics)
+- i18next (internationalization)
 
-## Getting Started
+**Hardware:**
+- Arduino Mega
+- RC522 RFID Module
+- 4x Stepper Motors for drawer control
 
-[Documentation to follow]
+## 📦 Getting Started
 
-## License
+### Prerequisites
+- Node.js (v16+)
+- PostgreSQL (v12+)
+- Arduino IDE
+- Docker (optional)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/douaeelghazal/servante-intelligente.git
+cd servante-intelligente
+```
+
+2. Install dependencies:
+```bash
+npm install
+cd servante-backend && npm install
+cd ../servante-frontend && npm install
+```
+
+3. Configure environment variables:
+```bash
+cp .env.example .env
+```
+
+4. Start the application:
+```bash
+docker-compose up
+```
+
+## 📚 Documentation
+
+- [Project Documentation](./PROJECT_DOCUMENTATION.md) - Complete system documentation
+- [RFID Integration](./RFID_INTEGRATION_COMPLETE.md) - RFID setup and configuration
+- [Motor Integration](./MOTOR_INTEGRATION.md) - Motor control setup
+- [Admin Guide](./servante-backend/documents/guide_admin/)
+- [User Guide](./servante-backend/documents/guide_utilisateur/)
+
+## 📄 License
 
 MIT License
 
-## Contact
+## 🏫 Institution
 
-For more information, visit our repository or reach out to the development team.
+EMINES - Université Mohammed VI Polytechnique
